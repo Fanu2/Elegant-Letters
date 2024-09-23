@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Letter Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Official Letter</h1>
+        <textarea id="letterContent" rows="10" placeholder="Enter your letter content here..."></textarea>
+        <br>
+        <input type="file" id="imageInput" accept="image/*" />
+        <br>
+        <label for="transparencyRange">Background Image Transparency:</label>
+        <input type="range" id="transparencyRange" min="0" max="100" value="100">
+        <br>
+        <button id="downloadTextButton">Download Text</button>
+        <button id="downloadPdfButton">Download PDF</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
